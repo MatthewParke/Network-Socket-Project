@@ -14,7 +14,7 @@ int main(int argc, char **argv){
 	char *host;
 	
 	host = "elnux1.cs.umass.edu";
-	port = 48579;
+	port = *******;
 
 
 	clientfd = open_clientfd(host, port);
@@ -27,8 +27,8 @@ int main(int argc, char **argv){
 	
 	FILE *file = fdopen(clientfd, "a+");
 
-	fprintf(file,"27740990");
-	printf("Sending Spire ID 27740990\n");
+	fprintf(file,"********");
+	printf("Sending Spire ID *********\n");
 
 	char *line = NULL;
 	size_t count;
